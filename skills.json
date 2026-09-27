@@ -1,13 +1,13 @@
 {
   "name": "claude-skills",
   "description": "The Universal AI Skills Library — 372 production-ready skills across 20 domains. Project Management is the most-used domain (70 skills).",
-  "version": "4.12.0",
+  "version": "4.12.1",
   "repository": "https://github.com/borghei/Claude-Skills",
   "website": "https://borghei.github.io/Claude-Skills",
   "author": "borghei",
   "license": "MIT + Commons Clause",
   "total_skills": 372,
-  "updated": "2026-09-21",
+  "updated": "2026-09-27",
   "domains": {
     "business-growth": {
       "count": 20,
@@ -396,7 +396,7 @@
     },
     {
       "name": "claude-code-mastery",
-      "description": "",
+      "description": ">-",
       "path": "engineering/claude-code-mastery/SKILL.md",
       "domain": "engineering",
       "category": "engineering",
@@ -1270,7 +1270,7 @@
     },
     {
       "name": "senior-cloud-architect",
-      "description": "",
+      "description": ">-",
       "path": "engineering/senior-cloud-architect/SKILL.md",
       "domain": "engineering",
       "category": "engineering",
@@ -1331,7 +1331,7 @@
     },
     {
       "name": "senior-data-scientist",
-      "description": "",
+      "description": ">-",
       "path": "engineering/senior-data-scientist/SKILL.md",
       "domain": "engineering",
       "category": "engineering",
@@ -1431,7 +1431,7 @@
     },
     {
       "name": "senior-mobile",
-      "description": "",
+      "description": ">-",
       "path": "engineering/senior-mobile/SKILL.md",
       "domain": "engineering",
       "category": "engineering",

@@ -39,8 +39,6 @@ This repository uses **modular documentation**. For domain-specific guidance, se
 | **Standards Library** | [standards/CLAUDE.md](standards/CLAUDE.md) | Communication, quality, git, security standards |
 | **Templates** | [templates/CLAUDE.md](templates/CLAUDE.md) | Template system usage |
 
-**Current Sprint:** See [documentation/delivery/sprint-11-05-2025/](documentation/delivery/sprint-11-05-2025/) for active sprint context and progress.
-
 ## Architecture Overview
 
 ### Repository Structure
@@ -181,23 +179,6 @@ hand-maintained `site/index.html`.
 - Document all dependencies in SKILL.md
 - Prefer standard library implementations
 
-## Current Sprint
-
-**Active Sprint:** sprint-11-05-2025 (Nov 5-19, 2025)
-**Goal:** Skill-Agent Integration Phase 1-2
-**Status:** ✅ COMPLETE - All 6 days finished, 5 agents deployed
-
-**Deliverables:**
-- 5 production agents: cs-content-creator, cs-demand-gen-specialist, cs-ceo-advisor, cs-cto-advisor, cs-product-manager
-- 1 agent template for future development
-- Modular documentation structure (main + 9 domain CLAUDE.md files)
-- Branch protection and workflow documentation
-
-**Progress Tracking:**
-- [Sprint Plan](documentation/delivery/sprint-11-05-2025/plan.md) - Day-by-day execution plan
-- [Sprint Context](documentation/delivery/sprint-11-05-2025/context.md) - Goals, scope, risks
-- [Sprint Progress](documentation/delivery/sprint-11-05-2025/PROGRESS.md) - Real-time auto-updating tracker
-
 ## Roadmap
 
 **Phase 1-4 Complete:** 245 production-ready skills deployed
@@ -250,7 +231,7 @@ hand-maintained `site/index.html`.
 ---
 
 **Last Updated:** September 2026
-**Version:** 4.12.0
+**Version:** 4.12.1
 **Status:** 372 skills, 68 cs-* agents (+ 8 personas), 26 commands, 21 sub-skills, 20 domains (incl. workflow meta-skills), Gemini CLI support. Engineering domain adds 4 AI-modernization skills (extended-thinking-architect, batch-api-orchestrator, computer-use-automation, agentic-evaluation-framework) + memory-tool/context-editing/reasoning-effort/caching upgrades to context-engine, llm-cost-optimizer, agent-workflow-designer, mcp-server-builder. Cross-platform surface unified — one `build_manifest.py` run regenerates `cli/skills.json`, `registry.json`, `.gemini/skills-index.json`, and the website catalog `skills.json`; all 20 domains install as Claude Code plugins; Cursor `.cursor/rules/*.mdc` added. PM domain expanded to 70 skills with career track, AI/ML PRD, activation funnels, feature flags, post-mortems, customer feedback triage, pricing PRDs, Linear/Notion/Productboard integrations, strategy frameworks (BMC/lean/SWOT/Porter's/Ansoff), and GTM (gtm-strategy/ICP).
 - **Recent additions (September 2026) — 4 skills + 2026 refresh:** marketing `ai-content-disclosure` and `conversational-ads`; PM `discovery/ai-prototyping` and `execution/agents-in-the-team` (8 stdlib tools). Existing marketing and PM skills refreshed against 2025–2026 changes: retired FAQ/HowTo rich results, AI crawler and Search Console AI controls, Advantage+/AI Max, GA4 AI Assistant channel, Productboard API v2, Jira `/search/jql`, Notion data sources, DORA 2024 benchmarks, EU AI Act Omnibus (Reg. 2026/1744), Atlassian Data Center end-of-life. Workflow templates hardened against shell injection (CWE-78).
 - **Recent additions (July 2026) — 25 skills, 3 new domains:** `business-operations/` (capacity-planner, process-mapper, vendor-management, internal-comms, knowledge-ops, procurement-optimizer), `research-ops/` (market-research, product-research, clinical-research, research-finance — applied/operational, distinct from academic `research/`), and `markdown-html/` (md-document, md-slides, md-review, design-system — stdlib-only markdown→HTML with zero network calls). Plus 5 engineering skills (write-a-skill, spec-driven-workflow, code-tour, agent-harness, cloud-security), data-analytics/statistical-analyst, 2 PM skills (team-communications, meeting-analyzer), and 3 personal-productivity skills (capture, deep-work, reflect). 44 new stdlib Python tools. Several tools ship deliberate CI gates that exit non-zero on flawed sample data — see each SKILL.md's exit-code contract.

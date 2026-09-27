@@ -417,7 +417,7 @@
       "name": "claude-code-mastery",
       "source": "../../engineering/claude-code-mastery",
       "category": "engineering",
-      "description": "Skill from engineering"
+      "description": ">-"
     },
     {
       "name": "cloud-security",
@@ -711,7 +711,7 @@
       "name": "senior-cloud-architect",
       "source": "../../engineering/senior-cloud-architect",
       "category": "engineering",
-      "description": "Skill from engineering"
+      "description": ">-"
     },
     {
       "name": "senior-computer-vision",
@@ -729,7 +729,7 @@
       "name": "senior-data-scientist",
       "source": "../../engineering/senior-data-scientist",
       "category": "engineering",
-      "description": "Skill from engineering"
+      "description": ">-"
     },
     {
       "name": "senior-devops",
@@ -759,7 +759,7 @@
       "name": "senior-mobile",
       "source": "../../engineering/senior-mobile",
       "category": "engineering",
-      "description": "Skill from engineering"
+      "description": ">-"
     },
     {
       "name": "senior-prompt-engineer",
